@@ -1,0 +1,153 @@
+/* Styles généraux */
+body {
+  font-family: "Lora", serif;
+}
+
+/* Partie 1: Style du contenant */
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55%;
+  font-size: 0.8rem;
+  color: white;
+}
+
+/* Barre supérieure du footer */
+.footer-topBar {
+  position: absolute; /* Modification : Utiliser position absolue */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #b34b4b;
+  height: 10%;
+}
+
+/* Barre inférieure du footer */
+.footer-bottomBar {
+  background-color: #735e5d;
+  top: 25%;
+  bottom: 0;
+  width: 100%;
+  min-height: 75%; /* Définit la hauteur minimale du footer */
+  padding-top: 8%;
+}
+
+/* Conteneur supérieur */
+.conteneurHaut {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permet aux colonnes de passer à la ligne */
+}
+
+/* Partie 2: Style du contenu */
+
+h3 {
+  font-size: 1rem;
+}
+
+/* Colonne de contact */
+.colonneContact {
+  flex: 1;
+  text-align: center;
+}
+
+.colonneContact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.colonneContact ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.colonneContact li i {
+  margin-right: 5px; /* Espacement entre l'icône et le texte */
+}
+
+.colonneContact p i {
+  margin-right: 5px;
+}
+
+/* Colonne des horaires */
+.colonneHoraires {
+  flex: 1;
+  text-align: center;
+}
+
+/* Colonne des newsletters */
+.colonneNewsletters {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colonneNewsletters input[type="email"] {
+  width: 60%;
+  height: 8%;
+}
+
+.colonneNewsletters input[type="email"]::placeholder {
+  font-size: 0.8rem;
+}
+
+.colonneNewsletters button[type="submit"] {
+  font-size: 0.5rem;
+  width: 30%;
+  margin-left: 35%;
+}
+
+/* Colonne des avis */
+.colonneAvis {
+  flex: 1;
+  text-align: center;
+}
+
+/* Conteneur du milieu */
+.conteneurMilieu {
+  text-align: center;
+}
+
+.liensFooter {
+  list-style-type: none;
+  padding: 0;
+}
+
+.liensFooter li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Conteneur du bas */
+.conteneurBas {
+  text-align: center;
+  color: #fff;
+}
+
+/* Media queries pour rendre le footer responsive */
+@media (max-width: 768px) {
+  .conteneurHaut {
+    flex-direction: column; /* Met les colonnes l'une au-dessus de l'autre */
+  }
+
+  .colonneContact,
+  .colonneHoraires,
+  .colonneNewsletters,
+  .colonneAvis {
+    flex: 1;
+    width: 100%;
+  }
+
+  .colonneNewsletters input[type="email"] {
+    width: 40%;
+  }
+
+  .colonneNewsletters button[type="submit"] {
+    font-size: 0.5rem;
+    width: 15%;
+    margin-left: 25%;
+  }
+}

@@ -1,0 +1,102 @@
+/* Définition de la police de caractères pour le corps du document */
+body {
+    font-family: "Lora", serif !important;
+  }
+  
+  /* Partie 1: Style du diaporama principal */
+  /* Styles du header */
+  header {
+    position: relative; /* Position relative pour permettre le positionnement des éléments enfants */
+  }
+  
+  .slideshow-container {
+    position: relative; /* Position relative pour permettre le positionnement des images enfants */
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Masquer le contenu débordant */
+  }
+  
+  .image {
+    display: none; /* Cacher les images par défaut */
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Styles de l'encart du menu */
+  .menu-encart-cadre {
+    position: absolute; /* Position absolue pour positionner l'encart par rapport au parent */
+    top: 90%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-radius: 10px; 
+    padding: 2% 5% 2% 5%; 
+    border: 2px solid #d0cdc2; 
+    background-color: white;
+    overflow: hidden; 
+    width: calc(80vw - 20px); /* Définir une largeur en fonction de la largeur de la fenêtre moins les marges */
+    max-width: 400px; 
+  }
+  
+  /* Style du texte dans l'encart */
+  .menu-encart-texte {
+    font-size: calc(2vw + 50%); /* Définir une taille de police en fonction de la largeur de la fenêtre */
+    text-align: center; 
+    white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+    text-overflow: ellipsis; /* Afficher les points de suspension (...) si le texte dépasse */
+  }
+  
+  /* Styles des flèches */
+  .prev,
+  .next {
+    position: absolute; /* Position absolue pour positionner les flèches par rapport au parent */
+    top: 50%; /* Position verticale des flèches par rapport au parent */
+    transform: translateY(-50%); /* Déplacer les flèches de moitié vers le haut pour les centrer */
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    text-decoration: none; 
+    cursor: pointer; 
+  }
+  
+  /* Position horizontale de la flèche précédente */
+  .prev {
+    left: 10px;
+  }
+  
+  /* Position horizontale de la flèche suivante */
+  .next {
+    right: 10px; 
+  }
+  
+  /* Partie 2: Formulaire */
+  /* Style général du formulaire */
+  .contact-form {
+    margin-bottom: 15%; 
+    text-align: center; 
+    margin: 10% 15% 10% 15%; /* Marges extérieures du formulaire */
+  }
+  
+  h2 {
+    font-size: 1.5rem; 
+  }
+  
+  /* Style du halo autour des inputs */
+  input:focus {
+    box-shadow: 0 0 6px #D0CDC2 !important;
+    border: 1px solid #D0CDC2 !important;
+  }
+  
+  textarea:focus {
+    outline: 4px solid #d0cdc2!important;
+    border: 1px solid #D0CDC2 !important;
+  }
+  
+  /* Style boutons */
+  .send-button {
+    background-color: #a9b19d !important; 
+  }
+  
+  .clear-button {
+    background-color: #b34b4b !important;
+  }
+  

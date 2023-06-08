@@ -1,0 +1,896 @@
+{
+  "menus": {
+    "formuleMidi": {
+      "entrees": [
+        {
+          "name": "Samoussa au porc",
+          "price": 10.99
+        }
+      ],
+      "plats": [
+        {
+          "name": "Cuisse de poulet, semoule & légumes",
+          "price": 15.99
+        }
+      ],
+      "desserts": [
+        {
+          "name": "Mousse au citron",
+          "price": 6.99
+        },
+        {
+          "name": "Panna cotta et menthe",
+          "price": 7.99
+        }
+      ]
+    },
+    "formuleSoirWK": {
+      "entrees": [
+        {
+          "name": "Les 9 Huîtres n°5 du Bassin d'Arcachon",
+          "price": 9.99
+        },
+        {
+          "name": "Crème brulée au reblochon et glace au foie gras",
+          "price": 7.99
+        },
+        {
+          "name": "Profiteroles au saumon fumé, crème citronnée",
+          "price": 11.99
+        }
+      ],
+      "plats": [
+        {
+          "name": "Jarrêt de porc, crème aux morilles",
+          "price": 17.99
+        },
+        {
+          "name": "Croustillant de saumon aux épinards et linguines",
+          "price": 14.99
+        }
+      ],
+      "desserts": [
+        {
+          "name": "Coupe de Glace au choix",
+          "price": 8.99
+        },
+        {
+          "name": "Dessert au choix",
+          "price": 7.99
+        }
+      ]
+    },
+    "menuEnfant": [
+      {
+        "name": "Viande ou poisson",
+        "price": 9.99
+      },
+      {
+        "name": "Frites maison ou riz",
+        "price": 8.99
+      },
+      {
+        "name": "Glace 2 boules ou Dessert du jour",
+        "price": 8.99
+      }
+    ],
+    "aLaCarte": {
+      "entrees": [
+        {
+          "name": "Soupe de poisson au piment d'espelette",
+          "price": 11.5
+        },
+        {
+          "name": "Les 6 Huîtres N°3 du Bassin d'Arcachon « Catherine Roux »",
+          "price": 9.5
+        },
+        {
+          "name": "Les 12 huitres N°3 du Bassin d'Arcachon « Catherine Roux »",
+          "price": 18.0
+        },
+        {
+          "name": "Croustillant de chèvre au miel, jambon de pays",
+          "price": 10.0
+        },
+        {
+          "name": "Graviax de saumon",
+          "price": 14.0
+        },
+        {
+          "name": "6 escargots de Bourgogne farcis à l'ail et persil",
+          "price": 9.0
+        },
+        {
+          "name": "Crème brûlée au reblochon, glace au Foie Gras",
+          "price": 14.0
+        },
+        {
+          "name": "Profiteroles au saumon fumé, crème citronnée, sorbet citron vert",
+          "price": 12.0
+        }
+      ],
+      "plats": [
+        {
+          "name": "Saint Félicien rôti sur pommes de terre, charcuterie, salade",
+          "price": 22.0
+        },
+        {
+          "name": "Epoisses rôtie, jambon de pays",
+          "price": 24.0
+        },
+        {
+          "name": "Filet de Boeuf Charolais, sauce poivre",
+          "price": 27.0
+        },
+        {
+          "name": "Carpaccio de Boeuf sauce pesto",
+          "price": 19.0
+        },
+        {
+          "name": "Souris d'agneau confite au miel",
+          "price": 26.0
+        },
+        {
+          "name": "Dos de Cabillaud et chorizo",
+          "price": 24.0
+        },
+        {
+          "name": "Croustillant de saumon aux épinards, linguines",
+          "price": 22.0
+        }
+      ],
+      "desserts": [
+        {
+          "name": "Panna cotta, coulis de fruits rouges",
+          "price": 8.0
+        },
+        {
+          "name": "Mousse au chocolat",
+          "price": 7.0
+        },
+        {
+          "name": "Tarte amandine aux poires",
+          "price": 8.0
+        },
+        {
+          "name": "Moelleux au chocolat, glace vanille",
+          "price": 8.0
+        },
+        {
+          "name": "Mousse citron mascarpone",
+          "price": 7.0
+        }
+      ],
+      "suggestions": {
+        "entrees": [
+          {
+            "name": "Tarte fine aux asperges, jambon de Serano",
+            "price": 11.0
+          },
+          {
+            "name": "Oeuf cocotte savoyard",
+            "price": 8.0
+          },
+          {
+            "name": "Croustillant de brie à la tomate séchée",
+            "price": 8.5
+          }
+        ],
+        "plats": [
+          {
+            "name": "Tête de veau, sauce gribiche",
+            "price": 22.0
+          },
+          {
+            "name": "Steack de thon rouge, concassés de tomate",
+            "price": 28.0
+          },
+          {
+            "name": "Aile de raie aux câpres",
+            "price": 24.0
+          },
+          {
+            "name": "Poélée de palourdes, linguines",
+            "price": 24.0
+          },
+          {
+            "name": "Brandade de morue",
+            "price": 19.0
+          },
+          {
+            "name": "Pavé de lieu, sauce colombo",
+            "price": 17.0
+          }
+        ],
+        "desserts": [
+          {
+            "name": "Carpaccio d'ananas et glace Rhum Raisins",
+            "price": 9.0
+          },
+          {
+            "name": "Marquise au chocolat & sorbet à la framboise",
+            "price": 8.0
+          },
+          {
+            "name": "Forêt noire, new look",
+            "price": 9.0
+          }
+        ]
+      },
+      "glaces": {
+        "incontournables": [
+          {
+            "name": "La Dame Blanche",
+            "price": 7.9
+          },
+          {
+            "name": "Le Chocolzt Liégeois",
+            "price": 7.9
+          },
+          {
+            "name": "Le Café Liégeois",
+            "price": 7.9
+          },
+          {
+            "name": "La Coupe Iceberg",
+            "price": 7.9
+          },
+          {
+            "name": "La Tropicale",
+            "price": 7.9
+          }
+        ],
+        "inattendues": [
+          {
+            "name": "La Mars",
+            "price": 8.9
+          },
+          {
+            "name": "La Coupe M&M's",
+            "price": 8.9
+          },
+          {
+            "name": "La Kit Kat",
+            "price": 8.9
+          },
+          {
+            "name": "La Brownies",
+            "price": 8.9
+          },
+          {
+            "name": "La Bambino",
+            "price": 8.9
+          },
+          {
+            "name": "La Bounty",
+            "price": 8.9
+          }
+        ],
+        "interdites": [
+          {
+            "name": "L'After-Eight",
+            "price": 9.9
+          },
+          {
+            "name": "La Colonel",
+            "price": 9.9
+          },
+          {
+            "name": "L'Hawaï",
+            "price": 9.9
+          },
+          {
+            "name": "La Normande",
+            "price": 9.9
+          }
+        ],
+        "nosParfums": {
+          "glace": [
+            {
+              "name": "Bimbo",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Brownies",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Bubble gum",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Café",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Caramel beurre salé",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Chocolat",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Menthe chocolat",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Noix de coco",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Pistache",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Pruneau d'armagnac",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Rhum raisins",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Vanille",
+              "price1": 2.9,
+              "price2": 4.9
+            }
+          ],
+          "sorbet": [
+            {
+              "name": "Abricot",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Cassis",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Citron vert",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Fraise",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Framboise",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Passion",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Poire",
+              "price1": 2.9,
+              "price2": 4.9
+            },
+            {
+              "name": "Pomme verte",
+              "price1": 2.9,
+              "price2": 4.9
+            }
+          ]
+        }
+      }
+    }
+  },
+  "boissons": {
+    "cocktails": {
+      "sansAlcool": [
+        {
+          "name": "Bora Bora",
+          "price": 6.5
+        },
+        {
+          "name": "Cendrillon",
+          "price": 6.5
+        },
+        {
+          "name": "Virgin Cherry Banane",
+          "price": 6.5
+        }
+      ],
+      "avecAlcool": [
+        {
+          "name": "Pina colada",
+          "price": 8.5
+        },
+        {
+          "name": "Blue Lagoon",
+          "price": 8.5
+        },
+        {
+          "name": "Planteur",
+          "price": 8.5
+        },
+        {
+          "name": "Bananarama",
+          "price": 8.5
+        },
+        {
+          "name": "Cuba Libre",
+          "price": 8.5
+        },
+        {
+          "name": "Marguerita",
+          "price": 8.5
+        },
+        {
+          "name": "La Jacqueline",
+          "price": 8.5
+        },
+        {
+          "name": "Grand Canyon",
+          "price": 8.5
+        },
+        {
+          "name": "Erobika",
+          "price": 8.5
+        },
+        {
+          "name": "Schtroumpf",
+          "price": 8.5
+        }
+      ]
+    },
+    "bieres": [
+      {
+        "name": "Bière pression 1664 25 cl",
+        "price": 3.5
+      },
+      {
+        "name": "Bière pression 1664 33 cl",
+        "price": 4.5
+      },
+      {
+        "name": "Bière pression 1664 50 cl",
+        "price": 6.0
+      },
+      {
+        "name": "Bière pression Grimbergen 25 cl",
+        "price": 4.5
+      },
+      {
+        "name": "Bière pression Grimbergen 33 cl",
+        "price": 5.5
+      },
+      {
+        "name": "Bière pression Grimbergen 50 cl",
+        "price": 8.0
+      },
+      {
+        "name": "Grimbergen blue - bouteille de 33 cl",
+        "price": 5.5
+      }
+    ],
+    "whiskies": [
+      {
+        "name": "Whisky Clan campbell 4 cl",
+        "price": 6.0
+      },
+      {
+        "name": "Paddy Irish whiskey 4 cl",
+        "price": 6.0
+      },
+      {
+        "name": "Jack Daniel's 4 cl",
+        "price": 7.0
+      },
+      {
+        "name": "Aberlour 4 cl",
+        "price": 8.5
+      },
+      {
+        "name": "Chivas Regal scotch whisky 4 cl",
+        "price": 8.5
+      },
+      {
+        "name": "Glenfiddich 4 cl",
+        "price": 8.5
+      }
+    ],
+    "aperitifs": [
+      {
+        "name": "Cidre brut 25 cl",
+        "price": 4.9
+      },
+      {
+        "name": "Kir au vin blanc (cassis, pêche, mûre) 12 cl",
+        "price": 4.5
+      },
+      {
+        "name": "Ricard 2 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Pastis 51 2 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Berger blanc 2 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Martini rouge ou blanc 5 cl",
+        "price": 5.0
+      },
+      {
+        "name": "Pineau des charentes (blanc ou rouge) 4 cl",
+        "price": 5.0
+      },
+      {
+        "name": "Lillet (blanc, rouge ou rosé) 4 cl",
+        "price": 5.0
+      },
+      {
+        "name": "Porto (blanc ou rouge) 4 cl",
+        "price": 5.0
+      }
+    ],
+    "softs": [
+      {
+        "name": "Jus de fruits PAGO 20 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Coca cola / Coca cola zéro 33 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Orangina 25 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Perrier 33 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Ice-tea 25 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Sirop à l'eau 25 cl",
+        "price": 3.0
+      },
+      {
+        "name": "Limonade 25 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Diabolo 25 cl",
+        "price": 4.5
+      },
+      {
+        "name": "Schweppes tonic 25 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Schweppes agrumes 25 cl",
+        "price": 4.0
+      },
+      {
+        "name": "Bière bouteille sans alcool 25 cl",
+        "price": 4.9
+      },
+      {
+        "name": "Abatilles gazeuse ou plate 1L",
+        "price": 5.0
+      },
+      {
+        "name": "Abatilles gazeuse ou plate 0,50 L",
+        "price": 4.0
+      }
+    ],
+    "boissonsChaudes": [
+      {
+        "name": "Café",
+        "price": 1.9
+      },
+      {
+        "name": "Décaféiné",
+        "price": 1.9
+      },
+      {
+        "name": "Grand café ou Grand crème",
+        "price": 2.5
+      },
+      {
+        "name": "Capuccino",
+        "price": 3.5
+      },
+      {
+        "name": "Thé ou Infusion",
+        "price": 3.9
+      },
+      {
+        "name": "Irish coffee",
+        "price": 3.5
+      },
+      {
+        "name": "Petit crème",
+        "price": 2.5
+      },
+      {
+        "name": "3,50 €",
+        "price": 8.5
+      }
+    ],
+    "digestifs": [
+      {
+        "name": "Get 27 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Get 31 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Bailey’s 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Manzana 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Marie-Brizard 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Vodka Bison 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Limoncello 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Sève Feu de Joie 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Armagnac 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Calvados 5 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Poire Williams 5 cl",
+        "price": 8.5
+      },
+      {
+        "name": "Cognac VSOP 5 cl",
+        "price": 8.5
+      }
+    ],
+    "rhums": [
+      {
+        "name": "Havana Club 4 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Saint-James 4 cl",
+        "price": 6.5
+      },
+      {
+        "name": "Clément Martinique 5 cl",
+        "price": 8.5
+      },
+      {
+        "name": "Bacardi 5 cl",
+        "price": 9.5
+      },
+      {
+        "name": "Diplomatico 5 cl",
+        "price": 9.5
+      },
+      {
+        "name": "Don Papa 5 cl",
+        "price": 9.5
+      }
+    ],
+    "vins": {
+      "rouge": [
+        {
+          "name": "Bordeaux AOP Le Louvetier inspiré par La Louvière 75 cl",
+          "price": 23.0
+        },
+        {
+          "name": "Côtes de Bourg AOP Château Haut Guiraud 75 cl",
+          "price": 20.0
+        },
+        {
+          "name": "Côtes de Bourg AOP Château Haut Guiraud 50 cl",
+          "price": 15.0
+        },
+        {
+          "name": "Côtes du Rhône BIO AOP Château des Coccinelles 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "AOP Pic Saint-Loup Haut-Lirou Languedoc Roussillon 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Côtes de Bœuf IGP d’OC Languedoc Roussillon 75 cl",
+          "price": 19.0
+        },
+        {
+          "name": "Graves AOP Château Boiresse 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Graves AOP Château Boiresse 50 cl",
+          "price": 18.0
+        },
+        {
+          "name": "Pessac Léognan AOP Château Mancèdre Les Griottes 75 cl",
+          "price": 34.0
+        },
+        {
+          "name": "Pessac Léognan AOP Marquise Haut Vigneau 75 cl",
+          "price": 57.0
+        },
+        {
+          "name": "AOP Saint-Estèphe La Coccinelle de Petit Bocq 75 cl",
+          "price": 39.0
+        },
+        {
+          "name": "AOP Haut-Médoc Château Lamothe Cissac 75 cl",
+          "price": 28.0
+        },
+        {
+          "name": "AOP Haut-Médoc Château Lamothe Cissac 37.5 cl",
+          "price": 16.0
+        },
+        {
+          "name": "Saint-Émilion AOP Château Tour Puyblanquet 75 cl",
+          "price": 31.0
+        },
+        {
+          "name": "Pomerol AOP Vieux château brun 75 cl",
+          "price": 49.0
+        },
+        {
+          "name": "Vin Californien 770 Miles Zinfandel Californie 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Vin Argentin Tupungato Mendoza Cameleon Malbec BIO 75 cl",
+          "price": 27.0
+        },
+        {
+          "name": "Vin Chilien Central Valley Cono Sur Bicicleta 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Vin Italien Sicilia DOC Luma Nero d’Avola 75 cl",
+          "price": 26.0
+        }
+      ],
+      "rose": [
+        {
+          "name": "IGP Méditerranée Pur Gris 75 cl",
+          "price": 17.0
+        },
+        {
+          "name": "Côtes de Provence AOP Les Hauts de Masterel 75 cl",
+          "price": 22.0
+        },
+        {
+          "name": "Côtes de Provence AOP Les Hauts de Masterel 37.5 cl",
+          "price": 14.0
+        },
+        {
+          "name": "Cabernet d'Anjou AOP Parfum Rosé 75 cl",
+          "price": 21.0
+        },
+        {
+          "name": "Marcel IGP Pays d’Oc Languedoc Roussillon 75 cl",
+          "price": 21.0
+        },
+        {
+          "name": "AOP Corse Domaine Casabianca 75 cl",
+          "price": 27.0
+        },
+        {
+          "name": "Château Maubert AOP Bordeaux Bio 75 cl",
+          "price": 24.0
+        }
+      ],
+
+      "blancSec": [
+        {
+          "name": "IGP Côtes de Gascogne UBY 75 cl",
+          "price": 19.0
+        },
+        {
+          "name": "Vin Chilien Central Valle Cono Sur Bicicleta Sauvignon blanc 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Vin Californien 770 Miles Zinfandel Californie 75 cl",
+          "price": 25.0
+        },
+        {
+          "name": "Clos des Orfeuilles AOP Muscadet Sevre et Maine Sur Lie BIO 75 cl",
+          "price": 24.0
+        },
+        {
+          "name": "Entre deux Mers AOP Château Sainte Marie 75 cl",
+          "price": 23.0
+        },
+        {
+          "name": "Entre deux Mers AOP Château Sainte Marie 37.5 cl",
+          "price": 15.0
+        },
+        {
+          "name": "Vin Argentin BIO Cameleon Torrontes Chardonnay 75 cl",
+          "price": 27.0
+        },
+        {
+          "name": "Chablis AOP Christophe Patrice 75 cl",
+          "price": 32.0
+        },
+        {
+          "name": "Pessac Léognan AOP Cantebau vignoble Lurton 75 cl",
+          "price": 39.0
+        }
+      ],
+      "blancMoelleux": [
+        {
+          "name": "Soleil d’Arche AOC Sauternes 75 cl",
+          "price": 39.0
+        },
+        {
+          "name": "Soleil d’Arche AOC Sauternes 37.5 cl",
+          "price": 27.0
+        },
+        {
+          "name": "Côtes de Gascogne IGP Bal des Papillons 75 cl",
+          "price": 22.0
+        }
+      ],
+
+      "champagne": [
+        {
+          "name": "Louis Tollet Brut 1er Cru 75 cl Blanc",
+          "price": 52.0
+        },
+        {
+          "name": "Louis Tollet Brut 1er Cru 18.7 cl Blanc",
+          "price": 18.0
+        },
+        {
+          "name": "Louis Tollet Brut 1er Cru 75 cl Rose",
+          "price": 55.0
+        },
+        {
+          "name": "Opale Crémant de Bordeaux Célene Blanc de Blanc brut 75 cl",
+          "price": 25.0
+        }
+      ]
+    }
+  }
+}
