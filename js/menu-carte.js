@@ -381,10 +381,10 @@ class Menu {
 
 // Remplissage du DOM HTML
 const el_menu = document.querySelector(".menu-colonne-gauche");
-const menu = new Menu();
+const menu_object = new Menu();
 
 async function renderMenu() {
-  el_menu.innerHTML = await menu.templateMenu();
+  el_menu.innerHTML = await menu_object.templateMenu();
 }
 
 renderMenu();
@@ -392,12 +392,12 @@ renderMenu();
 
 
 // Position de la barre de navigation suivant le défilement de la fenêtre
-window.addEventListener("scroll", function () {
-  var navigation = document.querySelector(".menu-navigation");
-  var windowHeight = window.innerHeight;
-  var threshold = windowHeight * 1.3; 
+window.addEventListener("scroll",  () => {
+  const navigation = document.querySelector(".menu-navigation");
+  const windowHeight = window.innerHeight;
+  const threshold = windowHeight * 1.3; 
 
-  if (window.pageYOffset > threshold) {
+  if (window.scrollY > threshold) {
     navigation.classList.add("sticky"); // Ajout de la classe .sticky 
   } else {
     navigation.classList.remove("sticky");
@@ -407,10 +407,10 @@ window.addEventListener("scroll", function () {
 
 // Bouton de retour en haut
 // Apparition de la flèche suivant le défilement de l'écran
-window.addEventListener("scroll", function () {
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+window.addEventListener("scroll", () => {
+  const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
-  var scrollToTopButton = document.querySelector(".scroll-to-top");
+  const scrollToTopButton = document.querySelector(".scroll-to-top");
 
   if (scrollPosition > 500) {
     scrollToTopButton.classList.add("show"); // Ajout de la classe .show pour montrer la flèche
@@ -422,7 +422,7 @@ window.addEventListener("scroll", function () {
 // Fait défiler la fenêtre vers le haut de la page lors du clique 
 document
   .querySelector(".scroll-to-top")
-  .addEventListener("click", function (e) {
+  .addEventListener("click", (e) => {
     e.preventDefault();
     window.scrollTo({
       top: 0,
