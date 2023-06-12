@@ -6,7 +6,7 @@ function addMiddleDots(name, maxLength) {
   const nbrOfDotsToAdd = maxLength - name.length;
   const dots = Array(nbrOfDotsToAdd).fill(".").join("");
   return name + dots;
-}
+};
 
 // Méthode asynchrone permettant de générer du code HTML de la carte à partir des données récupérées depuis le fichier JSON.
 class Menu {

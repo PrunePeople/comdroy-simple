@@ -4,22 +4,108 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant XYZ</title>
-    <link rel="stylesheet" href="/src/style/menu-carte.css" />
-    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="../src/style/menu-carte.css" />
+    <link href="../src/style/navbar.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="navbar"></div>
-    <header>
-      <img src="/src/images/menu-carte.JPG" alt="Image" class="image" />
-      <div class="menu-encart-cadre">
-        <h1 class="menu-encart-texte">Carte & Menus</h1>
+    <nav class="navbar">
+      <div class="dropdown__menu_burger">
+        <div class="navbar__menu_burger">
+          <span class="navbar__menu_burger_topBar"></span>
+          <span class="navbar__menu_burger_middleBar"></span>
+          <span class="navbar__menu_burger_bottomBar"></span>
+        </div>
+        <div class="dropdown__menu_burger-choises">
+          <a href="../pages/accueil.html" class="dropdown__burger-choice">
+            <p>Accueil</p>
+          </a>
+          <a href="../pages/reservation.html" class="dropdown__burger-choice">
+            <p>Réservation</p>
+          </a>
+          <a href="../pages/menu-carte.html" class="dropdown__burger-choice">
+            <p>Menu & Carte</p>
+          </a>
+          <a href="#" class="dropdown__burger-choice">
+            <p>L'Equipe</p>
+          </a>
+          <a href="../pages/information.html" class="dropdown__burger-choice">
+            <p>Informations</p>
+          </a>
+          <a href="../pages/contact.html" class="dropdown__burger-choice">
+            <p>Contact</p>
+          </a>
+        </div>
       </div>
-    </header>
+
+      <a href="">
+        <div class="navbar__logo">
+          <img
+            class="navbar__logo_img"
+            src="../src/images/logo/logo.jpg"
+            alt="logo"
+          />
+        </div>
+      </a>
+
+      <div class="navbar__icones">
+        <div class="navbar__icone_link">
+          <div class="navbar__icones_languages">
+            <img src="../src/frenchflagframed.svg" alt="Français" />
+            <span></span>
+            <img src="../src/united-kingdom-flag-icon.svg" alt="English" />
+          </div>
+          <div class="dropdown__language-option">
+            <a href="#" class="dropdown__language-linkFR">Français</a>
+            <span></span>
+            <a href="#" class="dropdown__language-linkEN">English</a>
+          </div>
+        </div>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_reservation">
+            <i class="fa-solid fa-calendar fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_gift">
+            <i class="fa-solid fa-gift fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_shopping">
+            <i class="fa-solid fa-shopping-cart fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_panier">
+            <i class="fa-solid fa-shopping-basket fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_connexion">
+            <i class="fa-regular fa-user fa-2xl"></i>
+          </div>
+        </a>
+      </div>
+    </nav>
+
+
+    <header>
+      <img class="header__menu-image" src="/src/images/menu-carte.JPG" alt="Image"/>
+      <div class="header__menu-cadre">
+        <h1 class="header__menu-texte">Carte & Menus</h1>
+      </div>
+    </header> 
+
     <div class="menu-container-cadre">
       <div class="menu-colonne-gauche"></div>
       <div class="menu-colonne-droite">
         <nav class="menu-navigation sticky">
-          <ul class="navbar">
+          <ul class="menu-navbar">
             <li>
               <a href="#menus">Nos Menus</a>
               <ul class="dropdown-menu">
@@ -102,13 +188,11 @@
       </div>
     </div>
 
-    <div id="footer"></div>
-
-
-    <script src="/js/menu-carte.js"></script>
     <a href="#" class="scroll-to-top">
       <img src="/src/arrow-up-solid.svg" alt="Flèche vers le haut" />
     </a>
     <script src="https://kit.fontawesome.com/c971cac520.js" crossorigin="anonymous"></script>
+    <script src="../js/menu-carte.js"></script>
+    <script src="../js/navbar.js"></script>
   </body>
 </html>

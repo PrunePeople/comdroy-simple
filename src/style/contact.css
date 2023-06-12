@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Définition de la police de caractères pour le corps du document */
 body {
     font-family: "Lora", serif !important;

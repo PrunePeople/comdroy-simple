@@ -1,9 +1,19 @@
-body {
+* {
   margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif !important;
+}
+
+.navbar--with-header .dropdown__menu_burger {
+  margin-left: 0; /* Réinitialise la marge gauche */
 }
 
 /* Barre de navigation principale */
 .navbar {
+  position: relative;
   width: 100%;
   height: 100px;
   z-index: 2;
