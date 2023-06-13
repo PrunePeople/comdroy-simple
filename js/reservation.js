@@ -133,33 +133,3 @@ function validerFormulaire() {
 }
 
 
-
-// // Optimisation colonnes
-// function generateCalendar() {
-//   const calendarContainer = document.getElementById("calendar-container");
-
-//   // Tableau des jours de la semaine
-//   const daysOfWeek = ["Dim", "Lun", "Mar", "Mer", "Jeu", "Ven", "Sam"];
-
-//   // Boucle pour générer les colonnes des jours de la semaine
-//   for (let i = 0; i < daysOfWeek.length; i++) {
-//     // Créer une div pour la colonne
-//     const columnDiv = document.createElement("div");
-//     columnDiv.classList.add("calendar-column");
-
-//     // Créer le bouton avec le nom du jour
-//     const dayButton = document.createElement("button");
-//     dayButton.classList.add("calendar-day");
-//     dayButton.textContent = daysOfWeek[i];
-
-//     // Ajouter le bouton à la colonne
-//     columnDiv.appendChild(dayButton);
-
-//     // Ajouter la colonne au conteneur du calendrier
-//     calendarContainer.appendChild(columnDiv);
-//   }
-// }
-
-// // Appeler la fonction pour générer le calendrier
-// generateCalendar();
-
