@@ -42,6 +42,3 @@ export function sliders() {
   interval(step4, imgSlider4);
   interval(step5, imgSlider5);
 }
-
-// Appel de la fonction principale pour démarrer les curseurs
-sliders();

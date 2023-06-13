@@ -17,7 +17,7 @@ header {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 10px;
-  padding: 2% 5% 2% 5%;
+  padding: 2%;
   border: 2px solid #d0cdc2;
   background-color: white;
   overflow: hidden; /* Masquer le contenu débordant */
