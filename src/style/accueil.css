@@ -90,14 +90,54 @@ header {
   margin: 5% 10% 5% 10%;
 }
 
-.accueil__grid-container .grid3 > img,
+/* Appliquer un style de positionnement relatif à la div parente */
+.accueil__grid-item.grid2,
+.accueil__grid-item.grid3 {
+  position: relative;
+}
+
+/* .accueil__grid-container .grid3 > img,
 .accueil__grid-container .grid2 > img {
   border-radius: 10px;
-  /* opacity: 0;
-  transition: opacity 1s; */
   max-width: 75%;
   max-height: 75%;
   margin-left: 10%;
+} */
+
+/* Appliquer un style de positionnement absolu aux images du diaporama */
+.accueil__grid-item.grid2 img,
+.accueil__grid-item.grid3 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 75%; /* Définir la largeur à 75% de la div parente */
+  height: auto;
+  object-fit: cover; /* Redimensionner l'image pour qu'elle couvre toute la div */
+}
+
+/* Appliquer un style de positionnement relatif à la div parente */
+.accueil__grid-item.grid2 .slideshow,
+.accueil__grid-item.grid3 .slideshow {
+  position: relative;
+}
+
+/* Appliquer un style de positionnement absolu aux images du diaporama dans la div de classe "slideshow" */
+.accueil__grid-item.grid2 .slideshow img,
+.accueil__grid-item.grid3 .slideshow img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Ajouter un style de positionnement relatif à la div parente pour maintenir la hauteur */
+.accueil__grid-item.grid2 .slideshow::before,
+.accueil__grid-item.grid3 .slideshow::before {
+  content: "";
+  display: block;
+  padding-top: 75%; /* Définir un ratio de 4:3 pour la hauteur */
 }
 
 .accueil__grid-container .grid4 {
@@ -114,9 +154,27 @@ header {
   display: flex;
 }
 
-.slider img.active {
+.slideshow {
+  position: relative;
+  display: flex; /* Utilisez un conteneur flex pour aligner les images */
+  align-items: center;
+  justify-content: center;
+}
+
+.slideshow img {
+  flex-shrink: 0;
+  width: auto; /* Modifiez cette ligne pour utiliser la largeur d'origine de l'image */
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.slideshow img.active {
   opacity: 1;
 }
+
+
 
 /* Appliquer un espacement entre les colonnes */
 .row::after {
