@@ -1,6 +1,7 @@
 // Sélectionnez tous les éléments <img> dans les diaporamas
 const images = document.querySelectorAll(".accueil__grid-item img");
 
+
 // Initialisez un index pour suivre l'image active
 let currentIndex = 0;
 

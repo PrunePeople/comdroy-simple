@@ -10,6 +10,9 @@
     />
     <link rel="icon" href="../src/images/logo/logo.jpg" type="image/x-icon" />
     <link rel="stylesheet" href="../src/style/accueil.css" />
+    <link rel="stylesheet" href="../src/style/navbar.css" />
+
+    <script type="module" src="../js/main.js"></script>
 
     <title>
       Com d Roy - Restaurant à Andernos-les-Bains | Cuisine traditionnelle et
@@ -18,6 +21,91 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <div class="dropdown__menu_burger">
+        <div class="navbar__menu_burger">
+          <span class="navbar__menu_burger_topBar"></span>
+          <span class="navbar__menu_burger_middleBar"></span>
+          <span class="navbar__menu_burger_bottomBar"></span>
+        </div>
+        <div class="dropdown__menu_burger-choises">
+          <a href="../pages/accueil.html" class="dropdown__burger-choice">
+            <p>Accueil</p>
+          </a>
+          <a href="../pages/reservation.html" class="dropdown__burger-choice">
+            <p>Réservation</p>
+          </a>
+          <a href="../pages/menu-carte.html" class="dropdown__burger-choice">
+            <p>Menu & Carte</p>
+          </a>
+          <a href="#" class="dropdown__burger-choice">
+            <p>L'Equipe</p>
+          </a>
+          <a href="../pages/information.html" class="dropdown__burger-choice">
+            <p>Informations</p>
+          </a>
+          <a href="../pages/contact.html" class="dropdown__burger-choice">
+            <p>Contact</p>
+          </a>
+        </div>
+      </div>
+
+      <a href="">
+        <div class="navbar__logo">
+          <img
+            class="navbar__logo_img"
+            src="../src/images/logo/logo.jpg"
+            alt="logo"
+          />
+        </div>
+      </a>
+
+      <div class="navbar__icones">
+        <div class="navbar__icone_link">
+          <div class="navbar__icones_languages">
+            <img src="../src/frenchflagframed.svg" alt="Français" />
+            <span></span>
+            <img src="../src/united-kingdom-flag-icon.svg" alt="English" />
+          </div>
+          <div class="dropdown__language-option">
+            <a href="#" class="dropdown__language-linkFR">Français</a>
+            <span></span>
+            <a href="#" class="dropdown__language-linkEN">English</a>
+          </div>
+        </div>
+
+        <a href="../pages/reservation.html" class="navbar__icone_link">
+          <div class="navbar__icones_reservation">
+            <i class="fa-solid fa-calendar fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_gift">
+            <i class="fa-solid fa-gift fa-2xl"></i>
+          </div>
+        </a>
+
+        <!-- <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_shopping">
+            <i class="fa-solid fa-shopping-cart fa-2xl"></i>
+          </div>
+        </a> -->
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_panier">
+            <i class="fa-solid fa-shopping-basket fa-2xl"></i>
+          </div>
+        </a>
+
+        <a href="#" class="navbar__icone_link">
+          <div class="navbar__icones_connexion">
+            <i class="fa-regular fa-user fa-2xl"></i>
+          </div>
+        </a>
+      </div>
+    </nav>
+
     <header>
       <img
         src="/src/images/acceuil-principal.JPG"
@@ -110,7 +198,7 @@
     </div>
 
     <div class="row">
-      <div class="accueil__colonne slider">
+      <div class="accueil__colonne">
         <img
           src="../src/images/accueil-slide1.JPG"
           alt=""
@@ -127,7 +215,7 @@
           class="imgSlider-1"
         /> -->
       </div>
-      <div class="accueil__colonne slider">
+      <div class="accueil__colonne">
         <img
           src="../src/images/accueil-slide4.JPG"
           alt=""
@@ -144,7 +232,7 @@
           class="imgSlider-2"
         /> -->
       </div>
-      <div class="accueil__colonne slider">
+      <div class="accueil__colonne">
         <img
           src="../src/images/accueil-slide7.JPG"
           alt=""
@@ -258,11 +346,14 @@
       </div>
     </div>
 
+    <div id="footer"></div>
+
     <script
       src="https://kit.fontawesome.com/c971cac520.js"
       crossorigin="anonymous"
     ></script>
 
     <script type="module" src="../js/accueil.js"></script>
+    <script type="module" src="../js/navbar.js"></script>
   </body>
 </html>
